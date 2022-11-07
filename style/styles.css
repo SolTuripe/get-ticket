@@ -1,0 +1,32 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#ticket-container {
+  background: #e3f6f5;
+  width: 30rem;
+  padding: 4rem;
+}
+
+h1 {
+  color: #57636e;
+  font-size: 3rem;
+  font-family: Verdana;
+  text-align: center;
+  padding: 2px 0;
+}
+
+#invoice {
+  font-size: 1.7rem;
+  color: #5a6772;
+}
