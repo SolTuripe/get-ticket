@@ -1,4 +1,4 @@
-export default [
+export const data = [
   { product: "water", type: "drinks", quantity: 10, unitPrice: 1 },
   { product: "chicken wings", type: "food", quantity: 3, unitPrice: 5 },
   { product: "steak", type: "food", quantity: 1, unitPrice: 9 },

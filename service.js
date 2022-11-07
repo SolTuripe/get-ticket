@@ -1,4 +1,4 @@
-import { data } from "./data/data";
+import { data } from "./data/data.js";
 
 function getProductsTotal(products) {
   let total = 0;
@@ -24,4 +24,3 @@ function printInvoiceLines(products) {
 }
 
 printInvoiceLines(data);
-console.log(data);
