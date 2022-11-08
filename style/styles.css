@@ -14,8 +14,8 @@ body {
 
 #ticket-container {
   background: #e3f6f5;
-  width: 30rem;
-  padding: 4rem;
+  width: 32rem;
+  padding: 3rem;
 }
 
 h1 {
@@ -26,7 +26,10 @@ h1 {
   padding: 2px 0;
 }
 
-#invoice {
-  font-size: 1.7rem;
+#lines {
   color: #5a6772;
+  font-size: 1.3rem;
+  font-family: Verdana;
+  display: flex;
+  flex-direction: column;
 }
