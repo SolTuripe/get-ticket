@@ -14,22 +14,39 @@ body {
 
 #ticket-container {
   background: #e3f6f5;
-  width: 32rem;
+  width: 40rem;
   padding: 3rem;
 }
 
-h1 {
+#title,
+#total {
   color: #57636e;
-  font-size: 3rem;
   font-family: Verdana;
+}
+
+#title {
+  font-size: 3rem;
   text-align: center;
   padding: 2px 0;
+}
+
+#total {
+  font-size: 2rem;
+  text-align: right;
 }
 
 #lines {
   color: #5a6772;
   font-size: 1.3rem;
   font-family: Verdana;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+}
+
+td,
+td {
+  padding: 8px;
+}
+
+th {
+  text-align: left;
 }

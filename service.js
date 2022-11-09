@@ -1,27 +1,31 @@
 import { data } from "./data/data.js";
 
 function getProductsTotal(products) {
-  let total = 0;
-  products.forEach((product) => {
-    total += product.quantity * product.unitPrice;
-  });
-  return total;
+  return products.reduce(
+    (accumulated, product) =>
+      accumulated + product.quantity * product.unitPrice,
+    0
+  );
 }
 
 function printInvoiceLines(products) {
   const table = document.querySelector("#lines");
-  products.map((product) => {
+
+  products.forEach((product) => {
     table.innerHTML += `
     <tr>
-    <td>${product.quantity}</td>
-    <td>${product.product}</td>
-    <td>${product.type}</td>
-    <td>${product.unitPrice}</td>
-    <td>${product.quantity * product.unitPrice}</td>
+      <td>${product.quantity}</td>
+      <td>${product.product}</td>
+      <td>${product.type}</td>
+      <td>${product.unitPrice}</td>
+      <td>${product.quantity * product.unitPrice}</td>
     </tr>
     `;
   });
-  table.innerHTML += `<tr><td>Total: ${getProductsTotal(products)}</td></tr>`;
+
+  document.querySelector("#total").innerHTML = `Total ${getProductsTotal(
+    products
+  )}`;
 }
 
 printInvoiceLines(data);
