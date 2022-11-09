@@ -1,4 +1,4 @@
-import { data } from "./data/data.js";
+import { data } from "./data.js";
 
 function getProductsTotal(products) {
   return products.reduce(
