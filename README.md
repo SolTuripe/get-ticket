@@ -12,7 +12,7 @@ These instructions will allow you to get a copy of the project running on your l
 Open your terminal and run: `git clone https://github.com/SolTuripe/get-ticket.git` \
 To download the project or make a fork.
 
-[To see the page in operation you can access here](https://crada2.github.io/PC-CODERS/)
+[To see the page in operation you can access here](https://solturipe.github.io/get-ticket/)
 
 ## 🖥 Desktop Version
 
@@ -23,5 +23,5 @@ To download the project or make a fork.
 
 ## 📝 Next steps
 
-- Testing.
+- Add some tests.
 - Add CRUD functionalities to edit, add or delete items from the ticket.
