@@ -17,7 +17,7 @@ To download the project or make a fork.
 ## 🖥 Desktop Version
 
 <p align="center"> 
-  <img src="./images/imgReadme.md/landingDesktop.png?raw=true" width=50%>
+  <img src="./images/ticket.png?raw=true" width=50%>
   
 </p>
 
