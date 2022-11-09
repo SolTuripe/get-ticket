@@ -2,7 +2,7 @@
 
 ## 📌 Introduction
 
-MVP for displaying the items of a restaurant ticket and its total price.\
+Web-App to display the items of a restaurant ticket and its total price.\
 Based on Javascript, html and css.
 
 ## 👩‍💻 Starting
@@ -17,11 +17,11 @@ To download the project or make a fork.
 ## 🖥 Desktop Version
 
 <p align="center"> 
-  <img src="./images/ticket.png?raw=true" width=50%>
+  <img src="./images/ticket.png?raw=true" width=65%>
   
 </p>
 
 ## 📝 Next steps
 
-- Testing all components.
+- Testing.
 - Add CRUD functionalities to edit, add or delete items from the ticket.
